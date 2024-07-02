@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+}
+ 
+ 
  body {
     font-family: "Helvetica Neue", Arial, sans-serif;
     margin: 0;
@@ -57,13 +62,15 @@ h2:hover,
 }
 
 
-header,
-h2{
+header, h2
+{
     text-align: center;
     background-color: #009688;
     color: #fff;
     border-radius: 10px 10px 0 0;
 }
+
+
 
 header h1 {
     margin: 0;
@@ -100,14 +107,6 @@ footer {
 
 /* Media Query for Responsiveness */
 @media (max-width: 768px) {
-
-    .container{
-        overflow: hidden;
-    }
-
-    main, h2, .goals, header, footer{
-        margin: 10px;
-    }
 
     header h1 {
         font-size: 2em;

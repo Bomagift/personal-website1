@@ -65,8 +65,7 @@ h2{
     border-radius: 10px 10px 0 0;
 }
 
-header h1 ,
-h2{
+header h1 {
     margin: 0;
     font-size: 2.5em;
     font-weight: bold;
@@ -80,7 +79,6 @@ section a{
 }
 
 main {
-    padding: 30px;
     line-height: 1.6;
     background-color: #fff;
     border-radius: 10px;
@@ -103,12 +101,12 @@ footer {
 /* Media Query for Responsiveness */
 @media (max-width: 768px) {
 
-    body{
+    .container{
         overflow: hidden;
     }
 
     main, h2, .goals, header, footer{
-        margin-left: 50px;
+        margin: 10px;
     }
 
     header h1 {

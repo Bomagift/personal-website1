@@ -47,7 +47,6 @@ header h1 {
 }
 
 section a{
-    text-decoration: none;
     display: flex;
     flex-direction: column;
     color: rgb(50, 43, 43);
@@ -83,10 +82,13 @@ footer {
 @media (max-width: 768px) {
 
     header,
-    main,
     footer {
         padding: 15px;
         margin: 15px 5px;
+    }
+
+    main{
+        margin-left: 50px;
     }
 
     header h1 {

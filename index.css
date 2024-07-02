@@ -103,6 +103,10 @@ footer {
 /* Media Query for Responsiveness */
 @media (max-width: 768px) {
 
+    body{
+        overflow: hidden;
+    }
+
     main, h2, .goals, header, footer{
         margin-left: 50px;
     }

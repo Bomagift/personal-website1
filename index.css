@@ -14,7 +14,9 @@
 
 header,
 main,
-footer {
+footer,
+h2,
+.goals{
     max-width: 900px;
     width: 100%;
     padding: 20px;
@@ -25,21 +27,45 @@ footer {
     transition: transform 0.2s ease-in-out;
 }
 
+.links
+{
+    margin-top: 10px;
+}
+
+
+.Name, .email{
+    margin: 0;
+    font-weight: 50;
+    font-size: 11px;
+}
+
+h4{
+    margin: 5px 0;
+}
+
+
+.bio-info{
+    margin-bottom: 20px;
+}
+
 header:hover,
 main:hover,
-footer:hover {
+footer:hover,
+h2:hover {
     transform: scale(1.02);
 }
 
 
-header {
+header,
+h2{
     text-align: center;
     background-color: #009688;
     color: #fff;
     border-radius: 10px 10px 0 0;
 }
 
-header h1 {
+header h1 ,
+h2{
     margin: 0;
     font-size: 2.5em;
     font-weight: bold;
@@ -59,16 +85,11 @@ main {
     border-radius: 10px;
 }
 
-h2 {
+h3 {
     margin-top: 0;
     color: #009688;
 }
 
-
-img {
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
 
 
 footer {

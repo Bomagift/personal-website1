@@ -6,30 +6,29 @@
     <title>My Tech Goals</title>
     <link rel="stylesheet" href="index.css" />
   </head>
+
   <body>
-    <header><h1>My Tech Goals for the Next 2 Years</h1></header>
+    <header>
+      <h1>My HNG Profile</h1>
+    </header>
+
     <main>
-      <section>
-        <h2>Goals</h2>
-        <ul>
-            <li>Deepen core skills eg master Html, Css and Javascript.</li>
-            <li>Advance in Frameworks.</li>
-            <li>Focus on performance and optimization.</li>
-            <li>Enhance UI/UX Design.</li>
-            <li>Collaborate and work with like-minded people.</li>
-            <li>Get a Good Tech job.</li>
-            <li>Stay correct and contribute.</li>
-    </ul>
+      <section class="bio-info">
+        <h4>Boma Gift</h4>
+        <p  class="Name"  data-testid="slackDisplayName">Slack Name </p>
+
+        <h4>Obomanuboma10@gmail.com</h4>
+        <p class="email"     data-testid="slackEmail">Slack Email </p> 
       </section>
-      <section>
-        <h2>Details</h2>
-        <p data-testid="slackDisplayName">Slack Name: Boma Gift</p>
-        <p data-testid="slackEmail">Slack Email: obomanuboma10@gmail.com</p>
+      
         <img
           data-testid="slackProfilePicture"
           src="images/boma.jpg"
           alt="Slack Profile Picture"
         />
+     
+
+        <section class="time">
         <p data-testid="currentTimeUTC">
           Current UTC Time: <span id="utcTime"></span>
         </p>
@@ -37,8 +36,10 @@
           Current Day: <span id="currentDay"></span>
         </p>
       </section>
-      <section>
-        <h2>Links</h2>
+
+
+      <section class="links">
+        <h3>Links</h3>
         <a data-testid="hngLink" href="https://hng.tech/learn">HNG Learn</a>
         <a data-testid="keywordLink" href="https://keyword.dog">Keyword Dog</a>
         <a data-testid="scrapeanywebLink" href="https://scrapeanyweb.site"
@@ -46,7 +47,26 @@
         >
       </section>
     </main>
+
+   <h2>My Tech Goals for the Next 2 Years</h2>
+
+    <section class="goals">
+      <h3>Goals</h3>
+      <ul>
+        <li> Master Html, Css and JavaScript.</li>
+        <li>Become proficient in React and other framework like Vue.js.</li>
+        <li>Learn to build progressive Web Apps.</li>
+        <li>Enhance UI/UX Design.</li>
+        <li>Collaborate and Work with like-minded people.</li>
+        <li>Focus on web performance optomization and accessibility.</li>
+        
+        <li>Get a Good Tech job.</li>
+        <li>Stay Correct and Contribute.</li>
+      </ul>
+    </section>
+
     <footer><p>&copy; 2024 @Boma</p></footer>
     <script src="index.js"></script>
   </body>
 </html>
+
